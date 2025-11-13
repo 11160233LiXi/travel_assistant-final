@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/favorites.tsx","./src/home.tsx","./src/itineraryplanner.tsx","./src/mytrips.tsx","./src/recommend.tsx","./src/tripdetail.tsx","./src/env.d.ts","./src/googlemaps.ts","./src/main.tsx","./src/types.ts","./src/vite-env.d.ts","./src/lib/trips.ts"],"errors":true,"version":"5.8.3"}

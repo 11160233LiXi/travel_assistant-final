@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* 【已移除】衝突的背景和文字顏色，
+     現在將由 Layout.tsx (bg-gray-50 dark:bg-gray-900) 全權控制
+  */
+}

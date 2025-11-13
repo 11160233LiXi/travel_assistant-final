@@ -1,0 +1,7 @@
+/* 頁面級樣式（可留空或放自訂樣式） */
+.card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 1rem;
+}
