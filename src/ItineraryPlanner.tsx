@@ -432,11 +432,14 @@ ${JSON.stringify(currentItineraryContext, null, 2)}
       <header className="sticky top-0 z-20 border-b bg-white/80 dark:bg-gray-900/80 backdrop-blur border-gray-200 dark:border-gray-700">
         <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
             <div className="flex items-center gap-3">
-                <div className="h-9 w-9 rounded-2xl bg-emerald-500 text-white grid place-items-center font-bold">趣</div>
-                <div><h1 className="text-lg font-semibold dark:text-white">行程規劃器</h1></div>
+                {/* ... (其他內容) ... */}
             </div>
             <div className="flex items-center gap-2">
-                {/* 【新增】匯出 JSON 按鈕 */}
+                
+                {/* 1. 儲存行程 (Save Trip) - 已移到左邊 */}
+                <button className={btn} onClick={saveTrip}>儲存行程</button>
+
+                {/* 2. 匯出 JSON (Export JSON) - 已移到右邊 */}
                 <button 
                   className={btn}
                   onClick={() => {
@@ -455,7 +458,6 @@ ${JSON.stringify(currentItineraryContext, null, 2)}
                   <Download size={16} />
                   匯出 JSON
                 </button>
-                <button className={btn} onClick={saveTrip}>儲存行程</button>
             </div>
         </div>
       </header>
